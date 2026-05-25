@@ -1,0 +1,20 @@
+/* Serendipity Serendipity Midnight — Firefox userChrome.css */
+@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
+
+:root {
+  --toolbar-bgcolor: #151726 !important;
+  --toolbar-color: #dee0ef !important;
+  --lwt-accent-color: #f8d2c9 !important;
+  --lwt-text-color: #dee0ef !important;
+  --tab-selected-bgcolor: #1c1e2d !important;
+  --arrowpanel-background: #1c1e2d !important;
+  --arrowpanel-color: #dee0ef !important;
+}
+
+#navigator-toolbox {
+  background-color: #151726 !important;
+}
+
+.tab-background[selected="true"] {
+  background-color: #1c1e2d !important;
+}

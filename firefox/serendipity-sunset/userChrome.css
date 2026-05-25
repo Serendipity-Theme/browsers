@@ -1,0 +1,20 @@
+/* Serendipity Serendipity Sunset — Firefox userChrome.css */
+@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
+
+:root {
+  --toolbar-bgcolor: #202231 !important;
+  --toolbar-color: #dee0ef !important;
+  --lwt-accent-color: #d6b4b4 !important;
+  --lwt-text-color: #dee0ef !important;
+  --tab-selected-bgcolor: #272938 !important;
+  --arrowpanel-background: #272938 !important;
+  --arrowpanel-color: #dee0ef !important;
+}
+
+#navigator-toolbox {
+  background-color: #202231 !important;
+}
+
+.tab-background[selected="true"] {
+  background-color: #272938 !important;
+}
